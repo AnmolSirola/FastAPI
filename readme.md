@@ -41,9 +41,10 @@ This is a simple Patient Management API built with FastAPI that stores and retri
   "height": 1.75,
   "weight": 70
 }
-```json
+```
 
-## 🧮 Automatic Calculations (Pydantic `computed_field`)
+
+### Automatic Calculations (Pydantic `computed_field`)
 
 When a patient is created or viewed, two computed fields are automatically calculated:
 
