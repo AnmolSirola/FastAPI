@@ -1,10 +1,6 @@
 ## What this Patient Management FastAPI app does
 
 This is a simple Patient Management API built with FastAPI that stores and retrieves patient details from a `patients.json` file. It allows creating new patients, viewing patients, and sorting them based on attributes like height, weight, or BMI.
-
-- PUT: For Updating
-- POST: For Creating
-- GET: For Retrieving 
 ---
 
 ## Starting the Server
@@ -22,10 +18,10 @@ uvicorn main:app --reload
 ```
 
 By default, the app will be available at:
-👉 http://127.0.0.1:8000
+http://127.0.0.1:8000
 
 You can also access the interactive API docs (Swagger UI) at:
-👉 http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 
 ## 🚀 API Features
 
