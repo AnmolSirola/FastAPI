@@ -1,4 +1,4 @@
-## What this FastAPI does:
+## Introduction:
 
 This is a simple **Patient Management API** built with **FastAPI** that stores and retrieves patient details from a `patients.json` file. It allows creating new patients, viewing patients, and sorting them based on attributes like height, weight, or BMI.
 
