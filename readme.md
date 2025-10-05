@@ -7,6 +7,26 @@ This is a simple Patient Management API built with FastAPI that stores and retri
 - GET: For Retrieving 
 ---
 
+## Starting the Server
+
+To run this project, you need to have **FastAPI** and **Uvicorn** installed.
+
+Install dependencies:
+```bash
+pip install "fastapi[standard]" uvicorn
+
+```
+Start the server with:
+```bash
+uvicorn main:app --reload
+```
+
+By default, the app will be available at:
+👉 http://127.0.0.1:8000
+
+You can also access the interactive API docs (Swagger UI) at:
+👉 http://127.0.0.1:8000/docs
+
 ## 🚀 API Features
 
 ### 1. View all patients
